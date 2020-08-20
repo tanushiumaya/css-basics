@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inline and block elements</title>
+  <style>
+    li{
+      display: inline; /*ul li normally blobk ne.eewa inline karama auto eka peliye wetenava*/
+    }
+    li a{
+      padding-right:20px ;
+    }
+    img{
+      margin: auto;/*block element karanne natuwa margin auto dammata center wenne na*/
+      display: block;/*ddn center wela athi*/
+    }
+    .box{
+      width: 32.8%;
+      background-color: #f4f4f4;
+      margin-bottom:15px;
+      display: inline-block;/*inline dammoth width ekai margin bottom ekai karanna ba kiyanava.ethakota karanne block eka inline-block karana eka*/
+      box-sizing: border-box;/*peeli 2ta wetena eka eka peeliye penannna*/ 
+      padding: 20px;
+      
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="#">Technology</a></li>
+    <li><a href="#">Business</a></li> 
+    <li><a href="#">Fashion</a></li>
+  </ul>
+  <br><br>
+  <img src="./nicolai-berntsen-nw6xREmkXkg-unsplash.jpg" alt="My image" width="500px"> <!--img kiyanne inline element..te img ekak dammoth eeka meeke eha paththe tiyenne.nxt line nemei-->
+  <br><br>
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, maiores laborum magnam consectetur quas ipsa iste iusto, quae nisi voluptate quod, voluptatibus doloribus ullam numquam optio sunt inventore! Facilis, mollitia.</p>
+  </div>
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, maiores laborum magnam consectetur quas ipsa iste iusto, quae nisi voluptate quod, voluptatibus doloribus ullam numquam optio sunt inventore! Facilis, mollitia.</p>
+  </div>
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, maiores laborum magnam consectetur quas ipsa iste iusto, quae nisi voluptate quod, voluptatibus doloribus ullam numquam optio sunt inventore! Facilis, mollitia.</p>
+  </div>
+</body>
+</html>
